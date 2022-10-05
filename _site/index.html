@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./favicon.ico">
+
+    <title>Peter Wirnsberger's Homepage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="./dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="./css/theme.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+  <!--  <link href="css/carousel.css" rel="stylesheet">-->
+
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Home</a>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="cv/index.html">CV</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Links <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://scholar.google.co.uk/citations?user=C34gEqAAAAAJ&hl=en">Google Scholar</a></li>
+                <li><a href="https://github.com/pw359">Github</a></li>
+                <li><a href="https://twitter.com/PeteWirnsberger">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/peter-wirnsberger-434b2311a">LinkedIn</a></li>
+              </ul>
+           </li>
+          <!--<li><a href="contact.html">Contact</a></li>-->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+    <div class="container theme-showcase" role="main">
+
+      <div class="jumbotron">
+        <div class="row">
+         <div class="col-md-7" align="justify">
+            <h1>Peter Wirnsberger</h1>
+            <br/>
+            <p>
+              Hi, I am a Senior Research Scientist at <a href="https://deepmind.com">DeepMind</a>, 
+              where I focus on problems at the intersection of ML, physics and chemistry.
+            </p>
+            <p>
+              My research interests include generative modelling, learning simulation, 
+              free energy estimation, enhanced sampling methods, and applying powerful ML 
+              to problems in statistical mechanics.
+            </p>
+            <p> 
+              Here you can find my <a href="cv/index.html">CV</a>,
+              research updates and a collection of links to my other public profiles.
+              Please visit
+              <a href="https://scholar.google.co.uk/citations?user=C34gEqAAAAAJ&hl=en">
+                Google scholar </a> 
+              for a complete list of my publications.
+            </p>
+          </div>
+          <div class="col-md-1 center-block"> 
+          </div>
+          <div class="col-md-4 center-block">
+            <figure class="figure">
+              <img src="cv/img/me.jpg" class="figure-img center-block" style="width:100%">
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <h1><b>Updates</b></h1>
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+              <div class="post-preview">
+              <h2 class="post-title">
+                Lecture at the Erwin Schr&ouml;dinger Institute
+              </h2>
+              <h4 class="post-subtitle">
+		The material is intended for a 3hr 
+                <a href="https://drive.google.com/file/d/1ou1Pzuw0L8-HZXJ-qc1B85ac-Yt1KQlZ/view">
+                lecture</a> followed by a 3hr
+                <a href="https://github.com/CompPhysVienna/MLSummerSchoolVienna2022/tree/main/Day08_July20">tutorial<a/>.
+                <br/><br/>
+                <a href="https://drive.google.com/file/d/1ou1Pzuw0L8-HZXJ-qc1B85ac-Yt1KQlZ/view">
+                  <img src="img/schroedinger.png" class="figure-img center-block" style="width:80%">
+                </a>
+              </h4>
+              <div class="post-title">
+              </div>
+              <p class="post-meta">Posted on 2 Aug, 2022</p>
+            </div>
+
+
+            <hr>
+            <div class="post-preview">
+              <h2 class="post-title">
+                [Paper] Normalizing flows for atomic solids
+              </h2>
+              <h4 class="post-subtitle">
+		Published in  
+                <a href="https://iopscience.iop.org/article/10.1088/2632-2153/ac6b16">
+                   Machine Learning: Science and Technology</a>
+                with code and trained models available on
+                <a href="https://github.com/deepmind/flows_for_atomic_solids">github</a>.
+                <br/><br/>
+                <img src="img/work_values.png" class="figure-img center-block" style="width:80%">
+              </h4>
+              <div class="post-title">
+              </div>
+              <p class="post-meta">Posted on 26 May, 2022</p>
+            </div>
+
+
+            <hr>
+            <div class="post-preview">
+              <h2 class="post-title">
+                [Paper] Targeted free energy estimation via learned mappings
+              </h2>
+              <h4 class="post-subtitle">
+		Selected as a featured article by
+                <a href="https://doi.org/10.1063/5.0018903">JCP</a>.
+		<br/><br/>
+		<img src="img/learned_estimator.png" class="figure-img center-block" style="width:100%">
+              </h4>
+              <div class="post-title">
+              </div>
+              <p class="post-meta">Posted on 31 October, 2020</p>
+            </div>
+
+            <hr>
+            <div class="post-preview">
+              <h2 class="post-title">
+                Promotion to Senior Research Scientist
+              </h2>
+              <div class="post-title">
+              </div>
+              <p class="post-meta">Posted on 12 October, 2020</p>
+            </div>
+
+            <hr>
+            <div class="post-preview">
+              <h2 class="post-title">
+                2018 Highly Commended Thesis Prize
+              </h2>
+              <h4 class="post-subtitle">
+                I received this prize from the Department of Chemistry, 
+                University of Cambridge, for my 
+                <a href="https://www.repository.cam.ac.uk/bitstream/handle/1810/282988/phd.pdf">
+                PhD Thesis</a>.
+              </h4>
+              <div class="post-title">
+              </div>
+              <p class="post-meta">Posted on 12 July, 2019</p>
+            </div>
+
+            <hr>
+            <div class="post-preview">
+              <h2 class="post-title">
+                [Paper] Microscopic analysis of thermo-orientation in systems of off-centre 
+                Lennard-Jones particles
+              </h2>
+              <h4 class="post-subtitle">
+                <a href="https://arxiv.org/pdf/1901.07240">arXiv</a> |
+                <a href="https://aip.scitation.org/doi/10.1063/1.5089541">JCP</a>
+              </h4>
+              <div class="post-title">
+              </div>
+              <p class="post-meta">Posted on 3 March, 2019</p>
+            </div>
+
+            <hr>
+            <div class="post-preview">
+              <h2 class="post-title">
+                Dr Peter Wirnsberger
+              </h2>
+              <h4 class="post-subtitle">
+                Here is a link to my 
+                <a href="https://www.repository.cam.ac.uk/bitstream/handle/1810/282988/phd.pdf">
+                PhD Thesis</a>.
+              </h4>
+              <div class="post-title">
+              </div>
+              <p class="post-meta">Posted on 20 October, 2018</p>
+            </div>
+
+            <hr>
+            <div class="post-preview">
+              <h2 class="post-title">
+                New position at DeepMind in London
+              </h2>
+              <h4 class="post-subtitle">
+                I am excited to share that I will be joining 
+                <a href="https://deepmind.com">DeepMind</a> as a Research Scientist.
+              </h4>
+              <div class="post-title">
+              </div>
+              <p class="post-meta">Posted on 25 June, 2018</p>
+            </div>
+
+
+            <hr>
+            <div class="post-preview">
+              <h2 class="post-title">
+                [Paper] Theoretical Prediction of Thermal Polarization
+              </h2>
+              <h4 class="post-subtitle">
+                <a href="https://arxiv.org/abs/1804.03624">arXiv</a> |
+                <a href="https://doi.org/10.1103/PhysRevLett.120.226001">PRL</a>
+                 <img src="img/thermo_orientation.png" class="figure-img center-block" style="width:80%">
+              </h4>
+              <p class="post-meta">Posted on 10 April, 2018</p>
+            </div>
+
+
+            <hr>
+            <div class="post-preview">
+              <h2 class="post-title">
+                I won a Microsoft Azure Research Award
+              </h2>
+              <h4 class="post-subtitle">
+                Microsoft will support my research for an entire year by providing me with access 
+                to their cloud computing service 
+                <a href="https://azure.microsoft.com/en-gb/overview/what-is-azure/">Azure</a>.
+              </h4>
+              <div class="post-title">
+              </div>
+              <p class="post-meta">Posted on 30 November, 2017</p>
+            </div>
+
+            <hr>
+            <div class="post-preview">
+              <h2 class="post-title">
+                We won the Microsoft Hackathon
+              </h2>
+              <h4 class="post-subtitle">
+                Our team is one of the global winners of this year's Microsoft Hackathon with more 
+                than 18,000 participants worldwide.
+              </h4>
+              <div class="post-title">
+              </div>
+              <p class="post-meta">Posted on 31 August, 2017</p>
+            </div>
+
+            <hr>
+            <div class="post-preview">
+              <h2 class="post-title">
+                ML internship at Microsoft 
+              </h2>
+              <h4 class="post-subtitle">
+                I am very excited about starting my 3-month research internship at 
+                <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge">
+                  Microsoft Research Cambridge
+                </a> 
+                today. 
+              </h4>
+              <div class="post-title">
+              </div>
+              <p class="post-meta">Posted on 3 July, 2017</p>
+            </div>
+
+            <hr>
+            <div class="post-preview">
+              <h2 class="post-title">
+                [Paper] Numerical Evidence for Thermally Induced Monopoles
+              </h2>
+              <h4 class="post-subtitle">
+                <a href="https://arxiv.org/abs/1610.06840">arXiv</a> | 
+                <a href="https://dx.doi.org/10.1073/pnas.1621494114">PNAS</a>
+                <img src="img/monopole_field.jpg" class="figure-img center-block" style="width:80%">
+              </h4>
+              <p class="post-meta">Posted on 3 April, 2017</p>
+            </div>
+
+            <hr>
+            <div class="post-preview">
+              <h2 class="post-title">
+                [Paper] Non-equilibrium simulations of thermally induced electric fields in water
+              </h2>
+              <h4 class="post-subtitle">
+                <a href="https://arxiv.org/abs/1602.02734">arXiv</a> | 
+                <a href=" http://aip.scitation.org/doi/full/10.1063/1.4953036">JCP</a>
+               <img src="img/water_setup.jpg" class="figure-img center-block" style="width:80%">
+              </h4>
+                <p class="post-meta">Posted on November 17, 2016</p>
+            </div>
+
+            <hr>
+            <div class="post-preview">
+              <h2 class="post-title">
+                [Paper] An enhanced version of the heat exchange algorithm with 
+                excellent energy conservation properties
+              </h2>
+              <h4 class="post-subtitle">
+                Selected as a 2015 Editors' Choice article.
+              </h4>
+              <h4 class="post-subtitle">
+                <a href="https://arxiv.org/abs/1507.07081">arXiv</a> | 
+                <a href="http://dx.doi.org/10.1063/1.4931597">JCP</a>
+              </h4>
+                <p class="post-meta">Posted on July 2, 2016</p>
+              </div>
+              <!--      <hr> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./assets/js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
