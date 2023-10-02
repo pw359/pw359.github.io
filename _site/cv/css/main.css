@@ -353,3 +353,8 @@ MEDIA
     width: 90%;
   }
 }
+@media print {
+   a[href]:after {
+      content: none !important;
+   }
+}
